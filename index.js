@@ -6,7 +6,7 @@ app.listen(3010, function () {
 });
  
 app.get("/", (req, res) => {
-  res.send("Users Shown");
+  res.send("Users Shown and tests have started");
 });
  
 app.get("/delete", (req, res) => {
